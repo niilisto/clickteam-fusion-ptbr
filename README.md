@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="1496" height="480" alt="logo" src="https://github.com/user-attachments/assets/8c9be2b4-8bdd-469a-9883-c1879e588782" />
+<img width="1024" height="332" alt="new-fusion-logo-1024x332" src="https://github.com/user-attachments/assets/591f8263-43b7-4281-8577-31e3ff36011b" />
 
 <h1>Clickteam Fusion 2.5+</h1>
 <h3>Tradução em Português Brasileiro</h3>
@@ -15,8 +15,7 @@
 
 Tradução da interface do **Clickteam Fusion 2.5+** (build 296.9) para **Português do Brasil**.
 
-> Já existe uma tradução feita pelo [@gui8515](https://github.com/gui8515), porém ela apresenta alguns problemas de compatibilidade com a versão atual do Fusion. Portanto, esta é uma versão própria e atualizada.
-> Link do projeto original: https://github.com/gui8515/Language-PT-BR-for-Clickteam-Fusion-2.5
+> Já existe uma tradução feita pelo [@gui8515](https://github.com/gui8515), porém, ela apresenta alguns problemas de compatibilidade com a versão atual do Fusion e alguns erros no editor de eventos. Portanto, esta é uma versão própria e atualizada, criada a partir do zero (usando a versão francesa como base). Link do projeto original: https://github.com/gui8515/Language-PT-BR-for-Clickteam-Fusion-2.5
 
 ---
 
