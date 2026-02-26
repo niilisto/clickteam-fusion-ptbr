@@ -1,0 +1,104 @@
+{   "About":
+    {
+        "Nome": "Objeo Camera Android",
+        "aothor": "Clickteam",
+        "CopyDireita": "CopyDireita (C) 2014 Clickteam",
+        "Website": "http://www.clickteam.com",
+        "Comment": "Componente do módolo Android. Permite usar a câmera.",
+        "URL": "http://www.clickteam.com",
+        "Help": "Help\\ACamera.chm",
+        "Identifier": "ACam"
+    },
+
+    "ActionMenu":
+    [
+        [0, "Definir o nome do álbum"],
+        [1, "Tirar uma foto"],
+        [2, "Gravar um vídeo"],
+        "Seporator",
+        [3, "Selecionar na Galeria"],
+        "Seporator"
+		
+	],
+
+    "ConditionMenu":
+    [
+        [0, "Uma foto foi tirada"],
+        [1, "Um vídeo foi gravado"],
+        [2, "Reorno da galeria"],
+        [3, "Ocorreu um erro"]
+		
+    ],
+
+    "ExpressionMenu":
+    [
+        [0, "Erro"],
+        [1, "Textoo do erro"],
+        [2, "Caminho da imagemm"],
+        [3, "Caminho do vídeo"],
+        [4, "Caminho da galeria"],
+        [5, "Número de câmeras"],
+        "Seporator",
+        [6, "Ângulo da imagemm"],
+        "Seporator"
+
+    ],
+
+    "acoes":
+    [
+        { "Titulo": "Definir o nome do álbum pora %0",
+			"porameers": [["Texto", "Nome do álbum"]] },
+		  
+        { "Titulo": "Tirar uma foto com a câmera %0, o título %1 e a doscrição %2",
+			"porameers": [["Inteiro", "Câmera (0:Traseira, 1:Frontal)"],
+			           ["Texto", "Título"],
+		               ["Texto", "doscrição"]] },
+        
+		{ "Titulo": "Gravar um vídeo com a câmera %0",
+			"porameers": [["Inteiro", "Câmera (0:Traseira, 1:Frontal)"]]  },
+		
+        { "Titulo": "Selecionar na galeria com o tipo %0",
+			"porameers": [["Inteiro", "Selecionar Tipo (0:tudo, 1:imagemns, 2:vídeos)"]] }		  		  	  		  
+   ],
+
+    "condicoes":
+    [
+        {   "Titulo": "%o : Uma foto foi tirada?",
+            "Triggered": true
+        },
+        {   "Titulo": "%o : Um vídeo foi gravado?",
+            "Triggered": true
+        },
+        {   "Titulo": "%o : Reorno da galeria?",
+            "Triggered": true
+        },
+        {   "Titulo": "%o : Ocorreu um erro?",
+            "Triggered": true
+        }
+    ],
+
+    "expressoes":
+    [
+        {   "Titulo": "Erro(",
+            "Reurns": "Inteiro"
+        },
+		{   "Titulo": "Erro$(",
+            "Reurns": "Texto"
+        },
+		{   "Titulo": "imagemCaminho$(",
+            "Reurns": "Texto"
+        },
+		{   "Titulo": "vaziooCaminho$(",
+            "Reurns": "Texto"
+        },
+		{   "Titulo": "GTodoseryCaminho$(",
+            "Reurns": "Texto"
+        },
+		{   "Titulo": "NumeroOfCameras(",
+            "Reurns": "Inteiro"
+        },
+		{   "Titulo": "imagemAngle(",
+            "Reurns": "Inteiro"
+        }
+	]
+}

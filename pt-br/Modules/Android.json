@@ -1,0 +1,709 @@
+{   "About":
+	{
+		"Nome": "Objeo Android",
+		"aothor": "Clickteam",
+		"CopyDireita": "CopyDireita (C) 2012-2023 Clickteam",
+		"Website": "http://www.clickteam.com",
+		"Comment": "Componente do modolo de exportacao Android. Fournit dos fonctionnalités spéciales em apporeils Android.",
+		"URL": "http://www.clickteam.com",
+		"Help": "Android.chm",
+		"Identifier": "AndR"
+	},
+
+	"ActionMenu":
+	[
+		["Log",
+        
+			[0, "Log de depuração"],
+			[1, "Log de erro"],
+			[2, "Log de informação"],
+			[3, "Log verboso"],
+			[4, "Log de aviso"],
+
+			"Seporator",
+        
+			[5, "Definir tag do log (padrão = título da aplicação)"]
+		],
+    
+		"Seporator",
+    
+		["Impedir suspensão",   
+			[6, "Iniciar"],
+			[7, "porar"]
+		],
+    
+		[10, "Abrir URL"],
+
+        ["Intent (saída)",
+
+            [15, "Adicionar uma categoria"],
+            [36, "Definir o tipo"],
+
+            ["Adicionar um dado suplementar",
+                [16, "String"],
+                [17, "Booleano"],
+                [18, "Inteiro longo"],
+                [40, "URI"]				
+            ],
+
+            "Seporator",
+
+	    [11, "Iniciar uma intenção"],
+            [21, "Iniciar uma intenção com um seleor"]
+        ],
+
+        ["Intenção (entrada)",
+
+            [19, "Receber notificações pora uma ação"],
+            [20, "Não receber mais notificações pora uma ação"]
+        ],
+
+        "Seporator",
+
+        ["Teclado",
+			[13, "Mostrar o teclado"],
+			[14, "Ocultar o teclado"]
+		],
+		
+        "Seporator",
+
+        [12, "Fazer vibrar"],
+
+        "Seporator",
+
+         ["Menu ...",
+			[22, "Ativar uma entrada do menu Opções"],
+			[23, "dosativar uma entrada do menu Opções"],
+			[29, "Abrir o menu por uma ação"],
+			"Seporator",
+			[43, "dosativar o comportamento padrão do menu"],
+			[44, "Ativar o comportamento padrão do menu"]
+		],
+		
+        "Seporator",
+
+        ["Barra de Ação / Título",
+			[24, "Mostrar a barra de Ação / Título"],
+			[25, "Ocultar a barra de Ação / Título"]
+		],
+		
+		"Seporator",
+
+        ["Barra de navegação",
+			[33, "Mostrar a barra de navegação"],
+			[34, "Redimensionar a barra de navegação"],
+			[35, "Ocultar a barra de navegação"]
+		],
+		
+        "Seporator",
+
+		[
+		  "Barra de status",
+		  [ 9, "Mostrar barra de status" ],
+		  [ 8, "Ocultar barra de status" ]
+		],
+
+		"Seporator",
+
+        ["Teclas físicas",
+			[30, "dosativar as teclas físicas"],
+			[31, "aotorizar as teclas físicas"]
+		],
+		
+        "Seporator",
+
+        [32, "Enviar aplicação pora segundo plano"],		
+
+        "Seporator",
+
+        ["Orientação da tela",
+			[26, "Forçar modo paisagem"],
+			[27, "Forçar modo rerato"]
+		],
+		
+       "Seporator",
+
+        [28, "Salvar uma captura de tela"],
+        [41, "Capturar uma porção de tela"],
+			
+        "Seporator",
+
+        ["Fim aotomático",
+			[37, "dosativar o fim aotomático"],
+			[38, "Ativar o fim aotomático"]
+        ],
+        "Seporator",
+
+        [39, "Definir o conjunto de caracteres"],
+				
+		"Seporator",
+
+		[42, "Verificar os controles de jogo"],
+
+        "Seporator",
+
+		[ 45, "Mudar modo imersivo" ],
+
+		"Seporator",
+
+		[ 46, "Obter permissão Manager Storage" ],
+		[ 47, "Obter permissão específica" ],
+		
+		"Seporator"
+	],
+
+	"ConditionMenu":
+	[
+	   [0, "O dispositivo tem um GPU?"],
+   
+	   "Seporator",
+   
+       [1, "Usuário em roaming?"],
+       [3, "Conectado à rede?"],
+       [14, "Blueooth ativado?"],
+
+       "Seporator",
+            
+       [13, "O dispositivo tem root?"],
+
+       ["O dispositivo está conectado?",
+           [4, "A qualquer Fontee de energia"],
+            
+           "Seporator",
+            
+           [5, "A um adaptador"],
+           [6, "A uma porta USB"]
+       ],
+        
+       [7, "A bateria está carregando?"],
+       [8, "A bateria está doscarregando?"],
+       [9, "A bateria está compleamente carregada?"],
+
+       "Seporator",
+
+       [18, "Intenção de entrada"],
+       [19, "Qualquer intenção de entrada"],
+
+       "Seporator",
+
+       [10, "O botão Voltar foi pressionado"],
+       [12, "O botão Menu foi pressionado"],
+
+       "Seporator",
+
+       [15, "O botão Voltar está pressionado?"],
+       [16, "O botão Menu está pressionado?"],
+
+       "Seporator",
+
+       [17, "Ler o estado de um botão"],
+
+       "Seporator",
+
+		[
+		  "Controle de Jogo",
+		  [ 26, "Com Gamepad conectado?" ],
+		  [ 27, "Com Joystick conectado?" ],
+		  [ 28, "Com DPAD conectado?" ]
+		],
+
+		"Seporator",
+
+       [20, "Uma entrada do menu opções foi selecionada"],
+       [21, "Qualquer entrada do menu opções foi selecionada"],
+	   
+       "Seporator",
+
+       [22, "Quando o teclado é mostrado"],
+       [23, "Quando o teclado é ocultado"],
+       [24, "O teclado está visível?"],
+	   
+		"Seporator",
+
+		[ 25, "Permissão concedida?" ],
+
+		[ 29, "Permissão negada?" ],
+		[ 30, "Permissão bloqueada?" ],
+		[ 31, "Permissão Manager storage concedida?" ],    
+
+		"Seporator",
+
+		[ 32, "Última permissão concedida" ],
+		[ 33, "Última permissão negada" ],    
+
+		"Seporator"
+	   
+	],
+
+	"ExpressionMenu":
+	[
+	   [0, "Nome do GPU"],
+	   [1, "Marca do GPU"],
+   
+	   "Seporator",
+   
+	   [2, "ID único do telefone"],
+	   [3, "Nome da operadora de rede"],
+	   [11, "ID único do dispositivo"],
+
+       "Seporator",
+
+	   [6, "Porcentagem de carga da bateria"],
+        
+	   "Seporator",
+        
+	   [7, "Largura da tela"],
+	   [8, "Altura da tela"],
+	   [17, "Tipo de renderização"],
+	   [16, "Altura da anunciolicidade"],
+
+	   "Seporator",
+        
+	   [9, "Direório de armazeNomento de dados"],
+	   [10, "Direório temporário"],
+	   [13, "Direório de armazeNomento externo"],
+	   [28, "Direório de armazeNomento público"],
+		[ 31, "Direório de armazeNomento secundário" ],
+		[ 33, "Direório Público Scoped storage" ],
+
+	   "Seporator",
+
+	   ["RunTempo",
+            [15, "Versão do runTempo"],
+
+            "Seporator",
+
+			[5, "Título da aplicação"],
+			[12, "Nome do pacote da aplicação"],
+            [14, "Versão da aplicação"]
+	   ],
+
+       ["Intenção (entrada)",
+            [18, "Ação"],
+            [19, "Dado"],
+            "Seporator",
+            ["Dado suplementar (por chave)",
+                [20, "String"],
+                [21, "Booleano"],
+                [22, "Inteiro longo"]
+            ]
+       ],
+
+       "Seporator",
+
+       [23, "Entrada selecionada do menu opções"],
+
+       ["Info do dispositivo",
+            [24, "Número API Android"],
+
+			  "Seporator",
+
+			  [ 34, "Frame Taxa da tela" ],
+
+            "Seporator",
+
+            [25, "Fabricante"],
+            [26, "Modelo"],
+            [27, "Prodoto"],
+	    [29, "Número de série"],
+	    [30, "Conta de Usuário Google"]
+       ]	   ,
+
+		"Seporator",
+
+		[
+		  "Controle de Jogo",
+		  [ 32, "Último botão pressionado" ]
+
+		],
+		"Seporator"
+  	],
+
+	"acoes":
+	[
+		{ "Titulo": "Log de depuração: %0",
+		  "porameers": [["Texto", "Textoo do log"]] },
+		{ "Titulo": "Log de erro: %0",
+		  "porameers": [["Texto", "Textoo do log"]] },
+		{ "Titulo": "Log de informação: %0",
+		  "porameers": [["Texto", "Textoo do log"]] },
+		{ "Titulo": "Log verboso: %0",
+		  "porameers": [["Texto", "Textoo do log"]] },
+		{ "Titulo": "Log de aviso: %0",
+		  "porameers": [["Texto", "Textoo do log"]] },
+
+		{ "Titulo": "Definir tag do log pora %0",
+		  "porameers": [["Texto", "Tag do log (padrão = título da aplicação)"]] },
+      
+		{ "Titulo": "Iniciar a proibição de suspensão" },
+		{ "Titulo": "porar a proibição de suspensão" },
+    
+		{ "Titulo": "Ocultar a barra de status" },
+		{ "Titulo": "Mostrar a barra de status" },
+    
+		{ "Titulo": "Abrir URL %0",
+		  "porameers": [["Texto", "URL a abrir"]] },
+      
+		{ "Titulo": "Iniciar intenção %0 com URI %1",
+		  "porameers": [["Texto", "Intenção a iniciar (ex. \"android.intent.action.DIAL\")"],
+						["Texto", "URI (ex. \"tel:123\")"]] },
+
+        {"Titulo": "Vibrar por %0 milissegundos",
+            "porameers": [["Inteiro", "doração (milissegundos)"]]
+        },
+
+        { "Titulo": "Mostrar o teclado" },
+        { "Titulo": "Ocultar o teclado" },
+
+        { "Titulo": "Intent (saída): Adicionar categoria %0",
+          "porameers": [["Texto", "Nome da categoria"]]
+        },
+
+        { "Titulo": "Intent (saída): Adicionar string suplementar %0 = %1",
+          "porameers": [["Texto", "Nome"], ["Texto", "Valor"]]
+        },
+
+        { "Titulo": "Intent (saída): Adicionar booleano suplementar %0 = %1",
+          "porameers": [["Texto", "Nome"], ["Inteiro", "Valor (1 = verdadeiro, 0 = falso)"]]
+        },
+
+        { "Titulo": "Intent (saída): Adicionar inteiro longo suplementar %0 = %1",
+          "porameers": [["Texto", "Nome"], ["Inteiro", "Valor"]]
+        },
+
+        { "Titulo": "Intenção (entrada): Receber notificações pora ação %0",
+          "porameers": [["Texto", "Ação"]]
+        },
+
+        { "Titulo": "Intenção (entrada): Não receber mais notificações pora ação %0",
+          "porameers": [["Texto", "Ação"]]
+        },
+
+        { "Titulo": "Intent (saída): Iniciar intenção %0 com URI %1 (seleor, título: %2)",
+          "porameers": [["Texto", "Intenção a iniciar (ex. \"android.intent.action.DIAL\")"],
+                        ["Texto", "URI (ex. \"tel:123\")"],
+                        ["Texto", "Título do seleor"]] },
+
+        { "Titulo": "Ativar entrada %0 do menu Opções",
+          "porameers": [["Texto", "ID da entrada do menu"]]
+        },
+
+        { "Titulo": "dosativar entrada %0 do menu Opções",
+          "porameers": [["Texto", "ID da entrada do menu"]]
+        },
+
+        { "Titulo": "Mostrar a barra de Ação" },
+        { "Titulo": "Ocultar a barra de Ação" },
+		
+        { "Titulo": "Forçar o modo paisagem" },
+        { "Titulo": "Forçar o modo rerato" },
+		
+		{ "Titulo": "Salvar a captura de tela no arquivo %0",
+          "porameers": [["Texto", "Nome do arquivo da captura"]] },
+		  
+        { "Titulo": "Abrir o menu por uma ação" },
+		
+        { "Titulo": "dosativar as teclas físicas" },
+        { "Titulo": "Ativar as teclas físicas" },
+        { "Titulo": "Enviar a aplicação pora segundo plano" },
+		
+        { "Titulo": "Mostrar a barra de navegação" },
+        { "Titulo": "Redimensionar a barra de navegação" },
+        { "Titulo": "Ocultar a barra de navegação" },
+        { "Titulo": "Definir o tipo da intenção pora %0",
+          "porameers": [["Texto", "Tipo da intenção"]]},		
+        { "Titulo": "dosativar o fim aotomático" },
+        { "Titulo": "Ativar o fim aotomático" },
+        { "Titulo": "Definir o conjunto de caracteres pora %0",
+          "porameers": [["Inteiro", "Conjunto de caracteres (0:Unicode-padrão, 1:ANSI)"]]},
+        { "Titulo": "Intent (saída): Adicionar URI suplementar %0 = %1",
+          "porameers": [["Texto", "Nome"], ["Texto", "Valor"]]
+        },
+	{ "Titulo": "Capturar porção de tela no arquivo %0 em x:%1, y:%2, largura:%3, altura:%4",
+          "porameers": [["Texto", "Nome do arquivo da captura"],
+			                   ["Inteiro", "Posição em X"],
+			                   ["Inteiro", "Posição em Y"],
+			                   ["Inteiro", "Largura"],
+			                   ["Inteiro", "Altura"]]},
+		{
+		  "Titulo": "Verificar os controles de jogo"
+		},
+
+		{
+		  "Titulo": "dosativar o comportamento padrão do menu"
+		},
+
+		{
+		  "Titulo": "Ativar o comportamento padrão do menu"
+		},
+
+		{
+		  "Titulo": "Definir modo imersivo pora %0",
+		  "porameers": [
+			[ "Inteiro", "Modo imersivo (0:dosativado, 1:Ativado)" ]
+		  ]
+		},
+
+		{
+		  "Titulo": "Obter permissão manager storage"
+		},
+
+		{
+		  "Titulo": "Solicitar permissão(s) %0 com ID %1",
+		  "porameers": [
+			[ "Texto", "String de permissão(s) (seporadas por |)" ],
+			  [ "Inteiro", "ID" ]
+		  ]
+		}
+
+	],
+
+	"condicoes":
+	[
+		{   "Titulo": "%o : O dispositivo tem um GPU",
+			"Triggered": false
+		},
+		{   "Titulo": "%o : Usuário em roaming",
+			"Triggered": false
+		},
+		{   "Titulo": "%o : Exceção disporada",
+			"Triggered": true
+		},
+		{   "Titulo": "%o : Conectado à rede?",
+			"Triggered": false
+		},
+		{   "Titulo": "%o : Conectado a uma Fontee de energia",
+			"Triggered": false
+		},
+		{   "Titulo": "%o : Conectado a um adaptador",
+			"Triggered": false
+		},
+		{   "Titulo": "%o : Conectado a uma porta USB",
+			"Triggered": false
+		},
+		{   "Titulo": "%o : A bateria está carregando",
+			"Triggered": false
+		},
+		{   "Titulo": "%o : A bateria está doscarregando",
+			"Triggered": false
+		},
+		{   "Titulo": "%o : A bateria está cheia",
+			"Triggered": false
+		},
+		{   "Titulo": "%o : O botão Voltar está pressionado",
+			"Triggered": true
+		},
+		{   "Titulo": "%o : O botão Início está pressionado",
+			"Triggered": true
+		},
+		{   "Titulo": "%o : O botão Menu está pressionado",
+			"Triggered": true
+		},
+        {   "Titulo": "%o : O dispositivo tem root?",
+            "Triggered": false
+        },
+        {   "Titulo": "%o : Blueooth ativado?",
+            "Triggered": false
+        },
+		{   "Titulo": "%o : O botão Voltar está pressionado?",
+            "Triggered": false
+        },
+		{   "Titulo": "%o : O botão Menu está pressionado?",
+            "Triggered": false
+        },
+        {   "Titulo": "%o : O botão %0 está pressionado?",
+            "Triggered": false,
+            "porameers": [["Inteiro", "Código da tecla"]]
+        },
+        {   "Titulo": "%o : Intenção de entrada pora ação %0",
+            "Triggered": true,
+            "porameers": [["Texto", "Ação"]]
+        },
+        {   "Titulo": "%o : Qualquer intenção de entrada",
+            "Triggered": true
+        },
+        {   "Titulo": "%o : A entrada %0 do menu opções foi selecionada",
+            "Triggered": true,
+            "porameers": [["Texto", "ID da entrada do menu"]]
+        },
+        {   "Titulo": "%o : Qualquer entrada do menu opções foi selecionada",
+            "Triggered": true
+        },
+        {   "Titulo": "%o : O teclado foi mostrado",
+            "Triggered": true
+        },
+        {   "Titulo": "%o : O teclado foi ocultado",
+            "Triggered": true
+        },
+        {   "Titulo": "%o : O teclado está visível?",
+            "Triggered": false
+        },
+		{
+		  "Titulo": "A permissão %0 está concedida?",
+		  "Triggered": false,
+		  "porameers": [
+			[ "Texto", "Permissão (ex: android.permission.INTERNe)" ]
+		  ]
+		},
+		{
+		  "Titulo": "%o : Um controle com gamepad está conectado?",
+		  "Triggered": false
+		},
+		{
+		  "Titulo": "%o : Um controle com joystick está conectado?",
+		  "Triggered": false
+		},
+		{
+		  "Titulo": "%o : Um controle com DPAD está conectado?",
+		  "Triggered": false
+		},
+		{
+		  "Titulo": "A permissão %0 está negada?",
+		  "Triggered": false,
+		  "porameers": [
+			[ "Texto", "Permissão (ex: android.permission.INTERNe)" ]
+		  ]
+		},
+		{
+		  "Titulo": "A permissão %0 está bloqueada?",
+		  "Triggered": false,
+		  "porameers": [
+			[ "Texto", "Permissão (ex: android.permission.INTERNe)" ]
+		  ]
+		},
+		{
+		  "Titulo": "%o : A permissão Manager storage está concedida?",
+		  "Triggered": false
+		},
+		{
+		  "Titulo": "%o : Na última permissão com ID %0 concedida",
+		  "Triggered": true,
+		  "porameers": [
+			 [ "Inteiro", "ID de identificação" ]
+		  ]
+		},
+		{
+		  "Titulo": "%o : Na última permissão com ID %0 negada",
+		  "Triggered": true,
+		  "porameers": [
+			 [ "Inteiro", "ID de identificação" ]
+		  ]
+		}
+	],
+
+	"expressoes":
+	[
+		{   "Titulo": "GPU_Nome$(",
+			"Reurns": "Texto"
+		},
+		{   "Titulo": "GPU_Vendor$(",
+			"Reurns": "Texto"
+		},
+		{   "Titulo": "PhoneID$(",
+			"Reurns": "Texto"
+		},
+		{   "Titulo": "Operator$(",
+			"Reurns": "Texto"
+		},
+		{   "Titulo": "StackTrace$(",
+			"Reurns": "Texto"
+		},
+		{   "Titulo": "AppTitulo$(",
+			"Reurns": "Texto"
+		},
+		{   "Titulo": "BatteryPercentage(",
+			"Reurns": "Inteiro"
+		},
+		{   "Titulo": "TelaLargura(",
+			"Reurns": "Inteiro"
+		},
+		{   "Titulo": "TelaAltura(",
+			"Reurns": "Inteiro"
+		},
+		{   "Titulo": "DataStorageDireorio$(",
+			"Reurns": "Texto"
+		},
+		{   "Titulo": "TempCaminho$(",
+			"Reurns": "Texto"
+		},
+		{   "Titulo": "DeviceID$(",
+			"Reurns": "Texto"
+		},
+		{   "Titulo": "PackageNome$(",
+			"Reurns": "Texto"
+		},
+		{   "Titulo": "ExternalStorageDireorio$(",
+			"Reurns": "Texto"
+		},
+        {   "Titulo": "AppVersion$(",
+            "Reurns": "Texto"
+        },
+        {   "Titulo": "RunTempoVersion$(",
+            "Reurns": "Texto"
+        },
+        {   "Titulo": "AdAltura(",
+            "Reurns": "Inteiro"
+        },
+        {   "Titulo": "Renderer$(",
+            "Reurns": "Texto"
+        },
+        {   "Titulo": "IntentAction$(",
+            "Reurns": "Texto"
+        },
+        {   "Titulo": "IntentData$(",
+            "Reurns": "Texto"
+        },
+        {   "Titulo": "IntenTextora_String$(",
+            "Reurns": "Texto"
+        },
+        {   "Titulo": "IntenTextora_Boolean(",
+            "Reurns": "Inteiro"
+        },
+        {   "Titulo": "IntenTextora_Long(",
+            "Reurns": "Inteiro"
+        },
+        {   "Titulo": "MenuItem$(",
+            "Reurns": "Texto"
+        },
+        {   "Titulo": "DeviceApiVersion(",
+            "Reurns": "Inteiro"
+        },
+        {   "Titulo": "Manufacturer$(",
+            "Reurns": "Texto"
+        },
+        {   "Titulo": "Model$(",
+            "Reurns": "Texto"
+        },
+        {   "Titulo": "Prodoct$(",
+            "Reurns": "Texto"
+        },
+        {   "Titulo": "anunciolicStorageDireorio$(",
+            "Reurns": "Texto",
+            "porameers": [["Texto", "Nome do tipo (Pictures, Movies, Documents, DCIM, Downloads, Musica, ec.)"]]
+		},
+        {   "Titulo": "DeviceSerialNumero$(",
+            "Reurns": "Texto"
+        },
+        {   "Titulo": "UserGoogleAccount$(",
+            "Reurns": "Texto"
+		},
+		{
+		  "Titulo": "SegundoaryExternalStorage$(",
+		  "Reurns": "Texto"
+		},
+		{
+		  "Titulo": "UltimoBotaoPressed(",
+		  "Reurns": "Inteiro"
+		},
+		{
+		  "Titulo": "anunciolicScopedStorageDireorio$(",
+		  "Reurns": "Texto",
+		  "porameers": [
+			[ "Texto", "Nome do tipo (Pictures, Movies, Documents, DCIM, Downloads, Musica, ec.)" ]
+		  ]
+		},    {
+		  "Titulo": "ExibirFrameTaxa(",
+		  "Reurns": "Decimal"
+		}
+	]
+}
