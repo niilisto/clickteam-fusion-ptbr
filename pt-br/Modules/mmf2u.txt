@@ -2965,7 +2965,7 @@
 		"Stand up": "Levante-se",
 		"Stand-alone Applications (*.exe)|*.exe|All Files (*.*)|*.*||": "Aplicativos independentes (*.exe)|*.exe|Todos os arquivos (*.*)|*.*||",
 		"Standard": "Standard",
-		"Start": "Para começar",
+		"Start": "Iniciar",
 		"Start loop": "Iniciar loop",
 		"Start loop for each one of %o and %0, loop name %1": "Inicie um loop para cada um de %o e %0, nome do loop %1",
 		"Start loop for each one of %o, loop name %0": "Inicie um loop para cada um de %o, nome do loop %0",
