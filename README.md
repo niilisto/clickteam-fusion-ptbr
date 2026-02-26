@@ -16,6 +16,7 @@
 Tradução da interface do **Clickteam Fusion 2.5+** (build 296.9) para **Português do Brasil**.
 
 > Já existe uma tradução feita pelo [@gui8515](https://github.com/gui8515), porém ela apresenta alguns problemas de compatibilidade com a versão atual do Fusion. Portanto, esta é uma versão própria e atualizada.
+> Link do projeto original: https://github.com/gui8515/Language-PT-BR-for-Clickteam-Fusion-2.5
 
 ---
 
