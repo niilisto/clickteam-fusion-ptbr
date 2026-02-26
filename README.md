@@ -88,4 +88,5 @@ Se este projeto foi útil para você, considere fazer uma doação via PayPal:
 
 ## To-do
 
-- [ ] Revisão semântica do `mmf2u.txt`.
+- [X] Revisão semântica do `mmf2u.txt`.
+- [ ] Tradução/localização de outras extensões.
