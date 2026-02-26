@@ -23,7 +23,7 @@
 		" Pow ": " Pow ",
 		" Xor ": " Xor ",
 		"\"%s\"": "\"%s\"",
-		"\"%s\" (%i)": "\"%se)",
+		"\"%s\" (%i)": "\"%s\" (%i)",
 		"\"%s\" (%s)": "\"%s\" (%s)",
 		"# of angles": "Nº de ângulos",
 		"#Title Install Program": "Programa de instalação do #Title",
