@@ -2691,7 +2691,7 @@
 		"Save as iOS final project (Xcode)": "Salvar como projeto iOS final (Xcode)",
 		"Save as iOS project (Xcode)": "Salvar como projeto iOS (Xcode)",
 		"Save background": "Salve a decoração",
-		"Save changes to %1?": "Salvar alterações em%1?",
+		"Save changes to %1?": "Salvar alterações em %1?",
 		"Save changes to current project?": "Salvar alterações no projeto atual?",
 		"Save frame position": "Salvar posição da cena",
 		"Save frame position to %0, version %1": "Guarda a posição da cena em %0, versão %1",
