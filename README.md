@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="1496" height="480" alt="logo" src="https://github.com/user-attachments/assets/8c9be2b4-8bdd-469a-9883-c1879e588782" />
+<img width="1024" height="332" alt="new-fusion-logo-1024x332" src="https://github.com/user-attachments/assets/591f8263-43b7-4281-8577-31e3ff36011b" />
 
 <h1>Clickteam Fusion 2.5+</h1>
 <h3>Tradução em Português Brasileiro</h3>
