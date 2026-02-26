@@ -29,7 +29,7 @@
     "Play when minimized": "Reproduzir quando minimizado",
     "Position in current track: %02i:%02i": "Posição na faixa atual: %02i:%02i",
     "Stop playing at end of frame": "Parar de reproduzir no final do frame",
-    "Stops the music at end of frame": "Para de tocar a música no final do quadro",
+    "Stops the music at end of frame": "Para de tocar a música no final da cena",
     "Total length of disk: %02i:%02i:%02i": "Duração total do disco: %02i:%02i:%02i"
   },
   "menu_20000": {

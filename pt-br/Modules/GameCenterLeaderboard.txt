@@ -43,9 +43,9 @@
     "Show name before score": "Mostrar nome antes da pontuação",
     "Shows the name before the score": "Mostra o nome antes da pontuação",
     "This week": "Esta semana",
-    "Timescope": "Cronoscópio",
+    "Timescope": "Intervalo de Tempo",
     "Today": "Hoje",
-    "iOS device will display the default leaderboard": "O dispositivo iOS exibirá o quadro de classificação padrão"
+    "iOS device will display the default leaderboard": "O dispositivo iOS exibirá o placar de líderes padrão"
   },
   "menu_20000": {
     "Actions": "Ações",

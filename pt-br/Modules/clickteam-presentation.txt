@@ -47,6 +47,6 @@
     "Very Fast": "Muito Rápido",
     "Very Slow": "Muito Lento",
     "When moving to the next index, first complete all previous index movements.": "Quando estiver movendo para o próximo índice, primeiro conclua todos os movimentos de índice anteriores.",
-    "When reaching the end of the frames movements the frame will be changed.": "Quando o movimento dos quadros atingir o final, o quadro será alterado."
+    "When reaching the end of the frames movements the frame will be changed.": "Quando o movimento das cenas atingir o final, a cena será alterada."
   }
 }
