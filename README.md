@@ -1,9 +1,9 @@
 <div align="center">
 
-<img width="768" height="512" alt="Clickteam Fusion 2.5 — Tradução pt-br" src="https://github.com/user-attachments/assets/1a984d96-6a8b-4339-8e9a-3abbc982a85c"/>
+<img width="1496" height="480" alt="logo" src="https://github.com/user-attachments/assets/8c9be2b4-8bdd-469a-9883-c1879e588782" />
 
 <h1>Clickteam Fusion 2.5+</h1>
-<h3>Tradução para Português do Brasil</h3>
+<h3>Tradução em Português Brasileiro</h3>
 
 ![Build](https://img.shields.io/badge/build-296.9-blue?style=flat-square)
 ![Idioma](https://img.shields.io/badge/idioma-pt--br-green?style=flat-square)
